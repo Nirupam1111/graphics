@@ -20,9 +20,9 @@ int main() {
     bottom = right = 300;
     rectangle(left, top, right, bottom);
     line(50, 300, 300, 50);
-    int x = 51;
-    int y = 51;
-    int newcolor = 12;
+    // int x = 51;
+    // int y = 51;
+    // int newcolor = 12;
     int oldcolor = 0;
     flood(51, 51, BLUE, oldcolor);
     flood(290, 290, RED, oldcolor);
